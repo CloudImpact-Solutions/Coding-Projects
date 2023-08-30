@@ -6,7 +6,7 @@ from docx import Document
 import sys
 
 # Initialize OpenAI API key
-openai.api_key = "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"
+openai.api_key = "your key"
 
 # Initialize rate limits
 daily_limit = 40000  # Replace with your daily token limit
