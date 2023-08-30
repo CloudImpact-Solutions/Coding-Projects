@@ -38,7 +38,7 @@ def analyze_text_with_openai(text, task):
 # Main code
 if __name__ == "__main__":
     pdf_path = r"C:\Users\skell\OneDrive\Documents\PDF parser\CloudImpactBusinessDoc.pdf"
-    openai.api_key = "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"
+    openai.api_key = "your key"
     
     # Convert PDF to text
     text_content = pdf_to_text(pdf_path)
