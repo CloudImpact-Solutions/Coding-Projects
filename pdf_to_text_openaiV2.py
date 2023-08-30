@@ -6,7 +6,7 @@ from fpdf import FPDF
 from docx import Document
 
 # Initialize OpenAI API key
-openai.api_key = "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"
+openai.api_key = "your key"
 
 # Initialize rate limits
 daily_limit = 40000  # Replace with your daily token limit
